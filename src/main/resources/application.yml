@@ -1,0 +1,18 @@
+server:
+  port: 9090
+
+spring:
+  datasource:
+    url: jdbc:mysql://localhost:3306/springboot_quartz?useUnicode=true&useSSL=false
+    username: root
+    password: 123456qwer
+    driver-class-name: com.mysql.jdbc.Driver
+
+
+
+###################  MyBatis 配置  ###################
+mybatis:
+      type-aliases-package: com.example.demo.entity
+      mapper-locations: classpath*:com/example/demo/mapper/**.xml
+
+    
